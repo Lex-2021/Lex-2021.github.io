@@ -93,24 +93,31 @@ li a:hover {
     }
 }
 
-.welcome {
-    background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+.watch {
+    background-image: url(neonbrand-60krlMMeWxU-unsplash.jpg);
     background-size: cover;
     padding: 40px;
     margin: 1pc 0px;
 }
 
-#welcolor {
+#watch {
     background-color: rgba(6, 174, 212, 0.5) ;
     padding: 40px;
     margin: 1px 0px;
 }
 
-.welcome h1 {
+.watch h1 {
     text-align: center;
     color: white;
     font-size: 2em;
     font-family: 'Source Serif Pro', serif;
+}
+
+.watch h3 {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 footer {
