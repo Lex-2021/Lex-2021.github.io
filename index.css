@@ -1,0 +1,99 @@
+body {
+    background-color: #06AED4;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    padding: 3px;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Source Serif Pro', serif;;
+}
+
+#lzlogo {
+    align-self: center;
+    float: left;
+    height: 2em;
+    margin-top: 22px;
+}
+
+.smicon {
+    height: 2em;
+    display: inline-block;
+    
+}
+
+
+nav {
+    width: 100%;
+    background-color: white;
+    height: 43px;
+    padding: 3px;
+    border-top: 1px solid #06AED4;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    float: left;
+    border-right: 2px solid black;
+    width: 20%;
+    align-items: center;
+    
+ }
+
+li a {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    display: block;
+    background-color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #06AED4;
+    color: white;
+}
+
+#gen{
+    background-color: white;
+    padding: 0.5px 0px 200px 0px;
+    margin: 15px;
+}
+
+#welcome{
+    background-color: #06AED4;
+    background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    padding: ;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerc {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#pixperf{
+    font-family: 'Fira Sans', sans-serif;;
+    text-align: center;
+    padding-bottom: 6px;
+}
