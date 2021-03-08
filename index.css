@@ -1,6 +1,7 @@
 body {
     background-color: #06AED4;
     margin: 0;
+    
 }
 
 header {
@@ -73,10 +74,30 @@ li a:hover {
     margin: 15px;
 }
 
-#welcome{
-    background-color: #06AED4;
+.welcome {
+    
     background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
-    padding: ;
+    background-size: cover;
+    padding: 40px;
+    margin: 1pc 0px;
+    
+}
+
+#welcolor {
+    background-color: rgba(6, 174, 212, 0.5) ;
+    padding: 40px;
+    margin: 1px 0px;
+}
+
+.welcome h1 {
+    text-align: center;
+    color: white;
+}
+
+hr {
+    color: azure;
+    width: 100%;
+    padding: 0px 3px;
 }
 
 footer {
@@ -84,12 +105,14 @@ footer {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 3px;
 }
 
 #footerc {
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
     padding-top: 5px;
+
 }
 
 #pixperf{
