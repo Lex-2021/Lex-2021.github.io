@@ -40,6 +40,15 @@ nav {
     border-top: 1px solid #06AED4;
 }
 
+nav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -79,13 +88,25 @@ li a:hover {
 
 .gen {
     background-color: white;
-    padding: 0.5px 0px 100px 0px;
+    padding: 0.5px 0px 50px 0px;
     margin: 15px;
     border-radius: 5px;
 }
 
 @media screen and (max-width: 600px) {
+    header {
+        width: 105%;
+    }
+
     .smicon {
+        display: none;
+    }
+
+    nav {
+        width: 105%;
+    }
+
+    nav input[type=text] {
         display: none;
     }
 }
@@ -102,6 +123,10 @@ li a:hover {
         justify-content: center;
         margin: auto;
         margin-top: 20px;
+    }
+
+    footer {
+        margin-top: 100px;
     }
 }
 
@@ -171,8 +196,11 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 3px;
-    position: absolute;
-    bottom: -200px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    clear:both;
+    
 }
 
 #footerc {

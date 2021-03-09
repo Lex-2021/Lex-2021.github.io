@@ -81,13 +81,22 @@ li a:hover {
 
 #gen {
     background-color: white;
-    padding: 0.5px 0px 100px 0px;
-    margin: 15px;
+    padding: 0.5px 0px 50px 0px;
+    margin: 15px 15px 100px 15px;
+    
 }
 
 @media screen and (max-width: 600px) {
+    header {
+        width: 105%;
+    }
+
     .smicon {
         display: none;
+    }
+
+    nav {
+        width: 105%;
     }
 
     nav input[type=text] {
@@ -102,6 +111,7 @@ li a:hover {
         justify-content: center;
         margin: auto;
         margin-top: 20px;
+        margin-bottom: 100px;
     }
 
     
@@ -133,8 +143,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 3px;
-    position: absolute;
-    bottom: -200px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    clear:both;
 }
 
 #footerc {
