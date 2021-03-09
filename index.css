@@ -29,8 +29,8 @@ header {
     float: right;
     margin-top: 22px;
     margin-left: 6px;
+    margin-right: 6px;
 }
-
 
 nav {
     width: 100%;
@@ -38,6 +38,15 @@ nav {
     height: 43px;
     padding: 3px;
     border-top: 1px solid #06AED4;
+}
+
+nav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
 }
 
 ul {
@@ -53,8 +62,7 @@ ul {
     border-right: 2px solid black;
     width: 20%;
     align-items: center;
-    
- }
+}
 
 li a {
     color: black;
@@ -81,6 +89,10 @@ li a:hover {
     .smicon {
         display: none;
     }
+
+    nav input[type=text] {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -91,6 +103,8 @@ li a:hover {
         margin: auto;
         margin-top: 20px;
     }
+
+    
 }
 
 .welcome {
