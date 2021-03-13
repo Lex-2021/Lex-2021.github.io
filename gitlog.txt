@@ -1,0 +1,138 @@
+commit b6863864459d13b69dc351ef8504bdb80a55c5c1
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Sat Mar 13 11:52:08 2021 +1100
+
+    Modify blog.css, blog.html, contact.css, contact.html, index.html, index.css, and projects.css.
+
+commit 269906a24719c40c9f3cff77cc50bab90acb3777
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Wed Mar 10 07:45:11 2021 +1100
+
+    Add contact.css. Modify contact.html and index.css.
+
+commit 56f0dd628a4739a0dc275b02ea4af2973ecde684
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Tue Mar 9 16:03:48 2021 +1100
+
+    Add about.css. Modify about.html, blog.css, blog.html, index.css, portfolio_views.bmpr, projects.css and projects.html.
+
+commit 36a8aaa161ebca032da6e7385e48a9c794be18dd
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Tue Mar 9 11:44:26 2021 +1100
+
+    Add blog images. Modify blog.css, blog.html, index.css and index.html.
+
+commit acde2429114b311dade89bd125d05d60722aa06a
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Tue Mar 9 07:53:07 2021 +1100
+
+    Add tools image, blog.css and projects.css. Modify blog.html, index.css, index.html, and projects.html.
+
+commit 554c1e2f00fd26eef633912b16a8e06273b5cce1
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Mon Mar 8 14:03:22 2021 +1100
+
+    Modify index.css and index.html.
+
+commit 226208030cbdad9a0b2e0e0b3ddfb83504635aa0
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Mon Mar 8 12:03:05 2021 +1100
+
+    Update body font. Add index.css and florian-olivo-4hbJ-eymZ1o-unsplash.jpg.
+
+commit 35be7ffce2fae11ff3c76108916e3f9f01486503
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Mon Mar 8 09:46:21 2021 +1100
+
+    Update links in about, blog, index, and projects. Add contact.html and icons_pdf-30.png.
+
+commit d648e62a30049aa4169b01969ac8109f61f27e37
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Sun Mar 7 20:13:01 2021 +1100
+
+    Add Resume doc and pdf, and add about.html
+
+commit 7639a767398d83b6c7c6e48744ca4e182b9f378d
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Sun Mar 7 15:19:02 2021 +1100
+
+    Add blog.html and add projects.html
+
+commit 970dbd631cf6addfd28d7f5b8cc2ab034e2e426f
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Sun Mar 7 13:18:39 2021 +1100
+
+    Add Index.html, add icons and update portfolio_views.bmpr
+
+commit fa54a3c6aa8d948cf8449721b0aa521fbc74c874
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Sat Mar 6 15:20:32 2021 +1100
+
+    Add portfolio_views.bmpr
+
+commit 303b368e60903b742d2032854035a0d13d3b6fe6
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Tue Mar 2 09:59:52 2021 +1100
+
+    Commit Recipes.html
+
+commit 6471906544f9a364ae6249c4e8bc34b141570d62
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Tue Mar 2 09:36:47 2021 +1100
+
+    Modify resume.html
+
+commit 6b441382a0089d856437e4d0b9dcb3d9c4e4c89b
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Mon Mar 1 12:08:53 2021 +1100
+
+    Modify index.html
+
+commit acbb5c6ddfedc712919a6ac1bd680643067bd1b4
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Mon Mar 1 11:18:24 2021 +1100
+
+    Add gitignore
+
+commit 93f12eaaf4ad4007ffd154ba07454a04722dd1f3
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Mon Mar 1 11:11:14 2021 +1100
+
+    Add Web1.html
+
+commit 9352a8588a5060d77f6b6ee8b94880730eb35802
+Merge: ee3a2a5 7a34bc7
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Wed Feb 24 12:05:41 2021 +1100
+
+    Merge branch 'new_content'
+
+commit ee3a2a58fee33c1d5fafe405f68be59a913f4642
+Author: Lex Zaskalkina <azaskalkina@hotmail.com>
+Date:   Wed Feb 24 12:03:16 2021 +1100
+
+    Add content to index
+
+commit 7a34bc7550a43c9f9b25393b13cd9ac28103b37e
+Author: azaskalkina@hotmail.com <aleksandrazaskalkina@Aleksandras-MacBook-Pro.local>
+Date:   Wed Feb 24 11:56:27 2021 +1100
+
+    Add content to resume
+
+commit a206a63325d215458b4465bace328da1830de280
+Author: azaskalkina@hotmail.com <aleksandrazaskalkina@Aleksandras-MacBook-Pro.local>
+Date:   Wed Feb 24 11:28:58 2021 +1100
+
+    Add resume.html
+
+commit 8225121d460413bc071e766aef0d587cc5cf7301
+Author: azaskalkina@hotmail.com <aleksandrazaskalkina@Aleksandras-MacBook-Pro.local>
+Date:   Wed Feb 24 11:12:54 2021 +1100
+
+    Add HTML skeleton
+
+commit d69ed6ab7f878ca907996039fd4b8635f3b25a48
+Author: Aleksandra Zaskalkina <aleksandrazaskalkina@Aleksandras-MacBook-Pro.local>
+Date:   Wed Feb 24 10:14:08 2021 +1100
+
+    Create initial project
