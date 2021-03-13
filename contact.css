@@ -138,6 +138,18 @@ p {
     padding-top: 20px;
 }
 
+.smlg {
+    align-self: center;
+    float: left;
+    height: 2em;
+    margin-left: 25px;
+}
+
+.smun {
+    font-family: 'Source Serif Pro', serif;
+    display: inline-block;
+}
+
 footer {
     background-color: white;
     width: 100%;

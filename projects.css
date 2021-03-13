@@ -86,19 +86,18 @@ li a:hover {
     margin: 15px 15px 100px 15px;
 }
 
-
-
 @media screen and (max-width: 600px) {
-    header {
-        width: 105%;
-    }
 
     .smicon {
         display: none;
     }
 
-    nav {
-        width: 105%;
+    .menu-item {
+        width: 10%;
+    }
+
+    li a {
+        padding: 12px 4px;
     }
 
     nav input[type=text] {
