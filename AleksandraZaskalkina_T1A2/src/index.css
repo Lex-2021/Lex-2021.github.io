@@ -29,8 +29,8 @@ header {
     float: right;
     margin-top: 22px;
     margin-left: 6px;
+    margin-right: 6px;
 }
-
 
 nav {
     width: 100%;
@@ -62,8 +62,7 @@ ul {
     border-right: 2px solid black;
     width: 20%;
     align-items: center;
-    
- }
+}
 
 li a {
     color: black;
@@ -82,12 +81,11 @@ li a:hover {
 
 #gen {
     background-color: white;
-    padding: 0.5px 0px 50px 0px;
+    padding: 0.5px 0px 30px 0px;
     margin: 15px 15px 100px 15px;
 }
 
 @media screen and (max-width: 600px) {
-
     .smicon {
         display: none;
     }
@@ -116,31 +114,48 @@ li a:hover {
     }
 }
 
-.watch {
-    background-image: url(neonbrand-60krlMMeWxU-unsplash.jpg);
+.welcome {
+    background-image: url(images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
     background-size: cover;
     padding: 40px;
     margin: 1pc 0px;
 }
 
-#watch {
+#welcolor {
     background-color: rgba(6, 174, 212, 0.5) ;
     padding: 40px;
     margin: 1px 0px;
 }
 
-.watch h1 {
+.welcome h1 {
     text-align: center;
     color: white;
     font-size: 2em;
     font-family: 'Source Serif Pro', serif;
 }
 
-.watch h3 {
+#sersec {
+    justify-content: center;
+    margin: auto;
+    display: block;
     text-align: center;
-    color: white;
-    font-size: 1em;
+}
+
+p {
     font-family: 'Fira Sans', sans-serif;
+    display: inline-block;
+}
+
+#welsearch {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: 2px solid #06AED4;
+    border-radius: 5px;
+    font-size: 17px;
+    justify-content: center;
+    margin: auto;
+    display: inline-block;
 }
 
 footer {
@@ -159,7 +174,7 @@ footer {
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
     padding-top: 5px;
-
+    display: block;
 }
 
 #pixperf{

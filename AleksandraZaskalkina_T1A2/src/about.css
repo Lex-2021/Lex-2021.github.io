@@ -29,8 +29,8 @@ header {
     float: right;
     margin-top: 22px;
     margin-left: 6px;
-    margin-right: 6px;
 }
+
 
 nav {
     width: 100%;
@@ -59,10 +59,9 @@ ul {
 
 .menu-item {
     float: left;
-    border-right: 2px solid black;
     width: 20%;
     align-items: center;
-}
+ }
 
 li a {
     color: black;
@@ -79,13 +78,21 @@ li a:hover {
     color: white;
 }
 
-#gen {
+.title {
+    margin-left: 14px;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.gen {
     background-color: white;
-    padding: 0.5px 0px 30px 0px;
+    padding: 0.5px 0px 50px 0px;
     margin: 15px 15px 100px 15px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 600px) {
+
     .smicon {
         display: none;
     }
@@ -105,60 +112,37 @@ li a:hover {
 
 @media screen and (min-width: 900px) {
     
-    #gen {
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .gen {
         width: 800px;
         justify-content: center;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 100px;
     }
-
-    
 }
 
-.welcome {
-    background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
-    background-size: cover;
-    padding: 40px;
-    margin: 1pc 0px;
-}
-
-#welcolor {
-    background-color: rgba(6, 174, 212, 0.5) ;
-    padding: 40px;
-    margin: 1px 0px;
-}
-
-.welcome h1 {
-    text-align: center;
-    color: white;
-    font-size: 2em;
-    font-family: 'Source Serif Pro', serif;
-}
-
-#sersec {
+#resume {
+    display: flex;
     justify-content: center;
-    margin: auto;
-    display: block;
-    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#pdficon {
+    float:left;
 }
 
 p {
+    margin: 16px 25px;
     font-family: 'Fira Sans', sans-serif;
-    display: inline-block;
+    font-size: 1.2em;
 }
 
-#welsearch {
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: 2px solid #06AED4;
-    border-radius: 5px;
-    font-size: 17px;
-    justify-content: center;
-    margin: auto;
-    display: inline-block;
-}
 
 footer {
     background-color: white;
@@ -168,6 +152,7 @@ footer {
     padding: 3px;
     bottom: 0;
     left: 0;
+    margin-top: 5px;
     position: relative;
     clear:both;
 }
@@ -176,10 +161,17 @@ footer {
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
     padding-top: 5px;
-    display: block;
+
+
 }
 
 #pixperf{
+    font-family: 'Fira Sans', sans-serif;;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+#pdfby {
     font-family: 'Fira Sans', sans-serif;;
     text-align: center;
     padding-bottom: 6px;

@@ -1,0 +1,169 @@
+body {
+    background-color: #06AED4;
+    margin: 0;
+    position: relative;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    padding: 3px;
+    align-items: center;
+}
+
+#name {
+    font-family: 'Source Serif Pro', serif;
+    display: inline-block;
+}
+
+#lzlogo {
+    align-self: center;
+    float: left;
+    height: 2em;
+    margin-top: 22px;
+}
+
+.smicon {
+    height: 2em;
+    display: inline;
+    float: right;
+    margin-top: 22px;
+    margin-left: 6px;
+}
+
+
+nav {
+    width: 100%;
+    background-color: white;
+    height: 43px;
+    padding: 3px;
+    border-top: 1px solid #06AED4;
+}
+
+nav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    float: left;
+    border-right: 2px solid black;
+    width: 20%;
+    align-items: center;
+    
+ }
+
+li a {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    display: block;
+    background-color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #06AED4;
+    color: white;
+}
+
+#gen {
+    background-color: white;
+    padding: 0.5px 0px 50px 0px;
+    margin: 15px 15px 100px 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .smicon {
+        display: none;
+    }
+
+    .menu-item {
+        width: 10%;
+    }
+
+    li a {
+        padding: 12px 4px;
+    }
+
+    nav input[type=text] {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    #gen {
+        width: 800px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+}
+
+.watch {
+    background-image: url(images/neonbrand-60krlMMeWxU-unsplash.jpg);
+    background-size: cover;
+    padding: 40px;
+    margin: 1pc 0px;
+}
+
+#watch {
+    background-color: rgba(6, 174, 212, 0.5) ;
+    padding: 40px;
+    margin: 1px 0px;
+}
+
+.watch h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.watch h3 {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    clear:both;
+}
+
+#footerc {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+#pixperf{
+    font-family: 'Fira Sans', sans-serif;;
+    text-align: center;
+    padding-bottom: 6px;
+}
