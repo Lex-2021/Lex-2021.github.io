@@ -1,18 +1,18 @@
-#Portfolio Website
+# Portfolio Website
 [Portfolio Website](https://lex-kz.github.io/contact.html)
 [Portfolio Ed Workspace](https://edstem.org/courses/4965/workspaces/py5gxNfFJL4ABhVxPvhgeJK48pMob5rg)
-###Tech Stack:
+### Tech Stack:
 - HTML
 - CSS
 - GitHub
 - Balsamiq (Wire Frames)
 - GitHub Pages (Deployment)
-###Purpose:
+### Purpose:
 The purpose of this website to present myself as a developer and IT professional. It showcases my skills, interests, and will be a place to showcase projects that I have created or participated in. 
 
 **Target Audience:** Employers looking to hire a developer and/or IT professional. 
 
-###Functionality/Features:
+### Functionality/Features:
 
 **Header:**
 
@@ -52,13 +52,13 @@ The About page contains a title of "About", a brief introduction to me as a pers
 
 The Contact page contains a title of "Contact", my contact information and links to three social media accounts in the forms of clickable icons with the screen names listed. 
 
-###Site Map
+### Site Map
 
 ![Site Map depicting a box representing the Home page with four arrows extending from it to four other boxes labeled Projects, Blog, About, and Contact.](docs/SiteMap.png)
 
 The Home/Index page is the first page a visitor would see and is the point of access for the rest of the site. The navigation bar at the top of each page links all pages to each other. 
 
-###Wire Frames
+### Wire Frames
 
 **Phone View**
 ![Wire frame of phone view of the original site design.](docs/PhoneView.png)
@@ -69,7 +69,7 @@ The Home/Index page is the first page a visitor would see and is the point of ac
 **Desktop View**
 ![Wire frame of Desktop view of the original site design.](docs/DesktopView.png) 
 
-###Screenshots 
+### Screenshots 
 
 **Home page**
 ![Home Page](docs/HomePage.png)
